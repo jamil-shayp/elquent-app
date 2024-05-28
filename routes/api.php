@@ -46,3 +46,5 @@ Route::post('/login',[UserController::class , 'login']);
 
 
 
+// ------------------------- Write By YAhia ------------------------
+Route::post('/forget_password',[UserController::class , 'forget_password']);
