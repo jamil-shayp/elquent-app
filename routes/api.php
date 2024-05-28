@@ -40,5 +40,9 @@ Route::get('/users',[UserController::class,'index']);
 // ------------------------- Login ------------------------
 Route::post('/login',[UserController::class , 'login']);
 
+// ------------------ new route
+// Route::post('/login',[UserController::class , 'login']);
+// Route::post('/login',[UserController::class , 'login']);
+
 
 
